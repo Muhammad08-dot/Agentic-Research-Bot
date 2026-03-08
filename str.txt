@@ -1,0 +1,6 @@
+research_paper_generator/
+├── app.py
+├── searcher.py
+├── generator.py
+├── pdf_exporter.py
+└── requirements.txt

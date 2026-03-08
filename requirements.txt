@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+crewai
+langchain-google-genai
+duckduckgo-search
+fpdf2
+python-dotenv

@@ -21,48 +21,34 @@ An advanced AI-driven research assistant developed using **CrewAI** and **Google
 
 ---
 
-## 📖 How to Use
+## 📖 How to Use (Step-by-Step Guide)
 
-Follow these steps to get the Agentic Research Bot running on your local machine:
+```text
+1️⃣ Clone the Repository:
+   git clone [https://github.com/Muhammad08-dot/Agentic-Research-Bot.git](https://github.com/Muhammad08-dot/Agentic-Research-Bot.git)
+   cd Agentic-Research-Bot
 
-## 📖 How to Use
+2️⃣ Create a Virtual Environment:
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
+   
+   # Mac/Linux
+   python3 -m venv venv
+   source venv/bin/activate
 
-Follow these steps to get the Agentic Research Bot running on your local machine:
+3️⃣ Install Dependencies:
+   pip install -r requirements.txt
 
-### 1️⃣ Clone the Repository
-```bash
-git clone [https://github.com/Muhammad08-dot/Agentic-Research-Bot.git](https://github.com/Muhammad08-dot/Agentic-Research-Bot.git)
-cd Agentic-Research-Bot
+4️⃣ Setup API Key:
+   - Get your Gemini API Key from Google AI Studio.
+   - Enter it in the sidebar of the Streamlit app.
 
-### 2️⃣ Create a Virtual Environment
-# Create venv
-python -m venv venv
+5️⃣ Run the Application:
+   streamlit run app.py
 
-# Activate (Windows)
-venv\Scripts\activate
-
-# Activate (Mac/Linux)
-source venv/bin/activate
-
-### 3️⃣ Install Dependencies
-
-pip install -r requirements.txt
-
-### 4️⃣ Setup API Key
-
-Get your Gemini API Key from Google AI Studio.
-
-Enter it in the sidebar of the Streamlit app or set it in your environment variables.
-
-### 5️⃣ Run the Application
-
-streamlit run app.py
-
-### 6️⃣ Generate Your Paper
-Enter Topic: Input your Research Topic (e.g., "The Impact of AI on Finance").
-
-Start Process: Click "Start Multi-Agent Process".
-
-Monitor: Watch the VS Code Terminal to see the Agents collaborating in real-time.
-
-Download: Get your final PDF once the process completes.
+6️⃣ Generate Your Paper:
+   - Enter Topic: Input your Research Topic (e.g., "The Impact of AI on Finance").
+   - Start Process: Click "Start Multi-Agent Process".
+   - Monitor: Watch the VS Code Terminal to see the Agents collaborating.
+   - Download: Get your final PDF once the process completes.

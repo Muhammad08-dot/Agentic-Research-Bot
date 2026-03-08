@@ -25,5 +25,3 @@ An advanced AI-driven research assistant developed using **CrewAI** and **Google
 ## 👤 Developer
 **Muhammad Abdullah** *BS-AI (4th Semester)* *National University of Modern Languages (NUML)* *Roll No: 9249401*
 
-## 📄 Sample Output
-Check out the generated sample: [The Impact of AI on Finance](./the_impact_of_AI_on_finance_Agentic.pdf)

@@ -19,9 +19,52 @@ An advanced AI-driven research assistant developed using **CrewAI** and **Google
 ## 📂 Project Structure
 - `app.py`: Streamlit interface.
 - `generator.py`: Core logic for Agent team and Tasks.
-- `searcher.py`: Web searching capabilities.
-- `pdf_exporter.py`: Markdown to PDF conversion.
 
 ## 👤 Developer
 **Muhammad Abdullah** *BS-AI (4th Semester)* *National University of Modern Languages (NUML)* *Roll No: 9249401*
 
+## 🛠️ How to Use
+
+Follow these steps to get the Agentic Research Bot running on your local machine:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Muhammad08-dot/Agentic-Research-Bot.git](https://github.com/Muhammad08-dot/Agentic-Research-Bot.git)
+cd Agentic-Research-Bot
+2. Create a Virtual Environment
+Bash
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+3. Install Dependencies
+Bash
+pip install -r requirements.txt
+4. Setup API Key
+Get your Gemini API Key from Google AI Studio.
+
+Enter it in the sidebar of the Streamlit app or set it in your environment variables.
+
+5. Run the Application
+Bash
+streamlit run app.py
+6. Generate Your Paper
+Enter your Research Topic (e.g., "The Impact of AI on Finance").
+
+Click "Start Multi-Agent Process".
+
+Monitor the VS Code Terminal to see the Agents (Researcher, Writer, Reviewer) collaborating in real-time.
+
+Download your final PDF once the process completes.
+
+📂 Project Structure
+app.py: Streamlit web interface.
+
+generator.py: Core logic for Agent team coordination and task definitions.
+
+searcher.py: Custom tool for real-time web searching.
+
+pdf_exporter.py: Converts markdown agent output into a professional PDF.
+
+requirements.txt: List of necessary Python packages.
